@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 100%;
+    background: black;
+}
+
+.banner {
+    background: rgba(0, 0, 0, 0.6) url(img/homeimg.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 105vh;
+    background-position: center;
+}
+
+.logo {
+    margin: 25px 0px 0px 30px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#selectlang {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+}
+
+.langbtn {
+    padding: 5px 10px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.globe {
+    font-family: fontawesome !important;
+    font-size: 15px;
+}
+
+#eng * {
+    background: rebeccapurple;
+}
+
+.signinbtnin {
+    border: none;
+    padding: 7px 10px;
+    margin: 5px 20px;
+    background: red;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.bannerheading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+.bannerheading h1 {
+    font-size: 50px;
+}
+
+.bannerheading h4 {
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.bannerheading p {
+    font-size: 19px;
+    padding-top: 15px;
+}
+
+.emailsubcriptn {
+    margin: 20px;
+    text-align: center;
+}
+
+.emailsubcriptn input {
+    padding: 12px;
+}
+
+.emailsubcriptn .email {
+    width: 400px;
+    color: black;
+    font-size: 20px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.email::placeholder {
+    padding: 20px 0px;
+}
+
+.bannerheading .getstart {
+    background: red;
+    margin-left: -6px;
+    font-size: 21px;
+    border-radius: 4px;
+    padding-bottom: 14px;
+    border: none;
+}
+
+.sec {
+    width: 100%;
+    height: 500px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 7px solid rgba(92, 88, 88, 0.508);
+    background: black;
+    padding: 40px 0px;
+
+}
+
+.secleft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.secleft h1 {
+    font-size: 50px;
+}
+
+.secleft p {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.secrightimg {
+    position: relative;
+    z-index: 999;
+}
+
+.video {
+    position: absolute;
+    left: 12%;
+    top: 20.5%;
+    max-width: 73%;
+    max-height: 54%;
+    z-index: 9;
+}
+
+.tvimg {
+    z-index: 999;
+    position: relative;
+}
+
+
+.phoneimg img {
+    width: 80%;
+    padding: 50px;
+    position: relative;
+}
+
+.download {
+    display: flex;
+    border: 2px solid rgb(86, 80, 80);
+    background: rgba(0, 0, 0, 0.811);
+    border-radius: 10px;
+    padding: 10px;
+    width: 55%;
+    height: 100px;
+    position: absolute;
+    top: 67%;
+    left: 12%;
+}
+
+.downloadimg1 {
+    margin: 5px;
+}
+
+.downloadimg2 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 7%;
+    top: 20%;
+}
+
+.download p {
+    padding: 20px 10px;
+    font-weight: 700;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.download span {
+    color: blue;
+    font-weight: 400;
+}
+
+
+.sec3pera {
+    padding: 150px;
+}
+
+.moveimg img {
+    width: 80%;
+    position: relative;
+    z-index: 999;
+}
+
+.moveimg video {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    width: 52%;
+    height: 60%;
+    z-index: 9;
+}
+
+.child img {
+    width: 90%;
+    height: 80%;
+}
+
+.qcont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.question {
+    width: 700px;
+
+}
+
+.question h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.question .questionitem {
+    padding: 15px 20px;
+    margin: 10px 40px;
+    font-size: 18px;
+    background: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ans {
+    display: none;
+    text-align: justify;
+    padding: 0px 42px 20px 42px;
+    margin: auto;
+}
+
+.rotateclass {
+    transform: rotate(90deg);
+}
+
+
+.lastreadyp {
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.emailsubcriptn .lastemail {
+    width: 500px;
+}
+
+.footerli {
+    display: flex;
+}
+
+.footer {
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    color: #757575;
+    padding-top: 60px;
+}
+
+.footerli ul {
+    list-style: none;
+    padding: 20px 60px 40px 0px;
+}
+
+.footer ul li {
+    font-size: 15px;
+    padding: 7px;
+    color: #757575;
+}
+
+.lastitem {
+    color: #757575;
+}
